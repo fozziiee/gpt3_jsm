@@ -6,18 +6,20 @@ import {
   Footer,
   Features,
   Possibility,
-  WhatGPT,
+  WhatGPT3,
 } from "./containers";
+
+import "./app.css";
 
 const App = () => {
   return (
     <div className="App">
-      <div className="gradient_bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
       <Brand />
-      <WhatGPT />
+      <WhatGPT3 />
       <Features />
       <Possibility />
       <CTA />
